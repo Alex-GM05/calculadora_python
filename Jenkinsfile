@@ -5,7 +5,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Ejecutando pruebas unitarias de Python...'
-                bat 'py -m unittest test_calculadora.py'
+                bat '"C:/Users/aleja/AppData/Local/Programs/Python/Python312/python.exe" -m unittest test_calculadora.py'
             }
         }
     }
